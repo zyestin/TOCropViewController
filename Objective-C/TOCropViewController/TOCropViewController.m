@@ -582,8 +582,8 @@ static const CGFloat kTOCropViewControllerToolbarHeight = 44.0f;
     //Prepare the list that will be fed to the alert view/controller
     
     // Ratio titles according to the order of enum TOCropViewControllerAspectRatioPreset
-    NSArray<NSString *> *portraitRatioTitles = @[originalButtonTitle, @"1:1", @"2:3", @"3:5", @"3:4", @"4:5", @"5:7", @"9:16", @"16:9", @"3:2"];
-    NSArray<NSString *> *landscapeRatioTitles = @[originalButtonTitle, @"1:1", @"3:2", @"5:3", @"4:3", @"5:4", @"7:5", @"16:9", @"9:16", @"2:3"];
+    NSArray<NSString *> *portraitRatioTitles = @[originalButtonTitle, @"1:1", @"2:3", @"3:5", @"3:4", @"4:5", @"5:7", @"9:16", @"16:9", @"3:2", @"4:3"];
+    NSArray<NSString *> *landscapeRatioTitles = @[originalButtonTitle, @"1:1", @"3:2", @"5:3", @"4:3", @"5:4", @"7:5", @"16:9", @"9:16", @"2:3", @"3:4"];
 
     NSMutableArray *ratioValues = [NSMutableArray array];
     NSMutableArray *itemStrings = [NSMutableArray array];
